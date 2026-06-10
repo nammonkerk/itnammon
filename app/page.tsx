@@ -1,11 +1,13 @@
 import Image from "next/image";
+import Navdar from "./components/Navbar";
 
 export default function Home() {
   return (
     <div>
-          Welcom to wedsite
+      
+          <h2>ยินดีตอนรับเข้าสู้</h2>
           <p>โดยศุภณัฐ เกริกชัยยวัน</p>
-          ยินดีตอนรับเข้าสู้
+    
     </div>
   );
 }
