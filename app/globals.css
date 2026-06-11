@@ -22,8 +22,8 @@ body {
 }
 
 .navbar {
-  background: #0f172a;
-  color: white;
+  background: #1e293b;
+  color: #a4fd68;
   padding: 14px 24px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-  color: white;
+  color: #c21a1a;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -57,7 +57,9 @@ body {
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: hsl(263, 83%, 56%);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .btn-register {
@@ -137,10 +139,16 @@ body {
 }
 
 .footer {
-  background: #0f172a;
+  background: hsl(222, 50%, 42%);
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 18px;
+}
+
+.footer-container{
+  max-width: 1200px;
+  margin:0 auto;
+
 }
 
 @media (max-width: 768px) {

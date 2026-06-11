@@ -1,10 +1,21 @@
+"use client";
+
 export default function login() {
   return (
-    <div>
+    <div className="auth-page">
+      <form className="auth-card">
       
         <h2>เข้าสูระบบ</h2>
-         
-    
+         <input
+          placeholder="Email"
+          type="email"
+          />
+         <input
+          placeholder="Password"
+          type="password"
+          />
+          <button>Login</button>
+          </form>
     </div>
   );
 }

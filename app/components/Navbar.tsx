@@ -4,23 +4,23 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white p-4">    
-        <ul className="flex space-x-4">
+    <nav className="navbar">    
+        <ul className="nav-links">
             <li>
                 <Link href="/" className="hover:text-gray-400">Home</Link>
             </li>
 
             <li>
-                <Link href="/about" className="hover:text-gray-400">About</Link>
+                <Link href="/about">About</Link>
             </li>       
             <li>
-                <Link href="/contact" className="hover:text-gray-400">Contact</Link>
+                <Link href="/contact">Contact</Link>
             </li> 
             <li>
-                <Link href="/contact" className="hover:text-gray-400">login</Link>
+                <Link href="/login">login</Link>
             </li>     
             <li>
-                <Link href="/contact" className="hover:text-gray-400">forgot-password</Link>
+                <Link href="/register" >regisiste</Link>
             </li>   
         </ul>
     </nav>
