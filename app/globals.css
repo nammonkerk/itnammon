@@ -22,7 +22,7 @@ body {
 }
 
 .navbar {
-  background: #1e293b;
+  background: hsl(217, 53%, 49%);
   color: #a4fd68;
   padding: 14px 24px;
 }
@@ -52,18 +52,22 @@ body {
 }
 
 .nav-links a {
-  color: white;
+  color: #885bd1;
   text-decoration: none;
 }
 
 .nav-links a:hover {
-  color: hsl(263, 83%, 56%);
+  color: #f0ebf3;
   font-weight: bold;
   font-size: 18px;
+  background: #885bd1;
+  padding: 14px 18px;
+  border-radius: 8px;
 }
 
+
 .btn-register {
-  background: #2563eb;
+  background: hsl(199, 82%, 59%);
   padding: 8px 14px;
   border-radius: 8px;
 }
@@ -163,7 +167,7 @@ body {
     right: 20px;
     flex-direction: column;
     align-items: flex-start;
-    background: #1e293b;
+    background: lch(0% 0 0);
     padding: 18px;
     width: 230px;
     border-radius: 12px;
