@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="nav-container">
             
             <Link href="/" className="logo">
-                    nammon ชอป
+                    nammon ชอบหี
                 </Link>
 
 
