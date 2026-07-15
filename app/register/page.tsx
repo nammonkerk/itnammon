@@ -36,7 +36,7 @@ export default function Register() {
       <form className="auth-card"  onSubmit={handleSubmit}>
         <h2> สมัครสมาชิก </h2>
         <input
-          placeholder="Name"
+          placeholder="เบอร์โทร"
           type="text"
           onChange={(e) => setForm({ ...form, name: e.target.value })}
         />
